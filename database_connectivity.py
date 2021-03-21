@@ -8,7 +8,7 @@ class MyDB:
     def get_connection(self):
         try:
             #connection to MYSQL
-            mydb = mysql.connector.connect(host="localhost",user="root",password="viraj200321")
+            mydb = mysql.connector.connect(host="localhost",user="root",password="######")
             mycursor = mydb.cursor()
             # creation of database if not exists
             mycursor.execute("CREATE DATABASE IF NOT EXISTS gym_manager")
